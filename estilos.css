@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: cadetblue;
+
+}
+
+.menu a{
+    color: white;
+    font-size: 20px;
+}
+
+.conteudo{
+    width: 700px;
+    border: 1px solid cadetblue;
+    border-radius: 10px;
+    margin: 10px auto;
+    box-shadow: 5px 5px 10px gray;
+    padding: 10px;
+}
