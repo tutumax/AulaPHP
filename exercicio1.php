@@ -37,14 +37,14 @@
             $valorfinal = 0;
 
 
-            if($sexo == feminino){
+            if($sexo == 'feminino'){
                 $valorfinal = $valor * 0.80;
                 $desconto = $valor - $valorfinal;
                 echo $valorfinal;
                 echo $nome;
                 echo $sexo;
             }
-            if($sexo == masculino){
+            if($sexo == 'masculino'){
                 $valorfinal = $valor * 0.95;
                 $desconto = $valor - $valorfinal;
                 echo $valorfinal;
