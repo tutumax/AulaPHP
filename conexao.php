@@ -1,12 +1,18 @@
 <?php
+    $servername= "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "bd_cadastro";
 
-    $servidor = "localhost";
-    $bancodados = "aulabd";
-    $usuario = "root";
-    $senha = "";
+    try{
+        $conn = new PDO("mysql:host=$servername;dbname=$dbname;charset=UTF8", $username, 
+        $password);
+        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-    $datasource = "mysql:host=$servidor;dbname=$bancodados;charset=UTF8";
+    }
+    catch(PDOException $erro)
+    {
+        header("Ocorreu o seguinte erro: " .$erro->getMessage());
 
-    $conexao = new PDO($datasource, $usuario, $senha);
-    $conexao->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    }
 ?>
