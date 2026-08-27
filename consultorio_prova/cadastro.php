@@ -132,7 +132,6 @@ if(isset($_REQUEST['enviar'])){
         <th scope= "col">CPF</th>
         <th scope= "col">RG</th>
         <th scope= "col">Telefone</th>
-        <th scope= "col">salarioliq</th>
         <th scope= "col">Responsável</th>
         <th scope= "col">Escola</th>
         <th scope="col">Endereço</th>
