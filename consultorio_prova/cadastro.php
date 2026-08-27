@@ -122,7 +122,7 @@ if(isset($_REQUEST['enviar'])){
     //$conn = null;
 ?>
 
-<h1>Consulta de RFuncionários</h1>
+<h1>Consulta de Pacientes</h1>
 <table border="1">
     <tr>
         <th scope= "col">Id</th>
